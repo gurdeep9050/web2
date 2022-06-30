@@ -1,0 +1,128 @@
+// Variables
+
+$primaryfont: 'Poppins', sans-serif;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: $primaryfont;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+@mixin flex-property {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+
+// Header starts
+
+@import "header";
+
+
+// Second Part
+
+@import "second-part";
+
+// Third part starts
+
+.full-photo{
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text{
+    padding: 5rem 0;
+    text-align: center;
+
+    p{
+        color: gray;
+        letter-spacing: 0.2rem;
+        font-weight: 300;
+    }
+
+    hr{
+        width: 40%;
+        position: relative;
+        left: 30%;
+    }
+
+    h3{
+        color: #fff;
+        font-weight: 400;
+    }
+}
+
+
+// Fourth part starts
+
+.fourth-part{
+    width: 100%;
+    background-color: #dfdfdf;
+    padding-bottom: 6rem;
+
+    .inner{
+        width: 80%;
+        margin: 0 auto;
+
+        h3{
+            color: black;
+        }
+
+        hr{
+            border: 0.1px solid rgba(128, 128, 128, 0.361); 
+        }
+
+        .images{
+            @include flex-property();
+           
+
+            img{
+                width: 47%;
+                border: 10px solid #fff;
+            }
+
+            .margin{
+                margin-bottom: 3.5rem;
+            }
+        }
+    }
+}
+
+// Footer starts
+
+.footer{
+    width: 100%;
+    background-color: black;
+    padding: 5rem 0;
+    text-align: center;
+
+    span{
+        color: gray;
+        font-size: 2rem;
+        margin: 0.7rem;
+    }
+
+    a :hover{
+        color: #fff;
+    }
+
+    p{
+        color: gray;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+}
+
+
+// Media Query Starts
+
+@import "media-query";

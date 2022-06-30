@@ -1,0 +1,57 @@
+.full{
+    width: 100%;
+    background-color: #dfdfdf;
+    padding: 5rem 0;
+
+    .info{
+        background-color: #dfdfdf;
+        max-width: 80%;
+        margin: 0 auto;
+        @include flex-property();
+
+        .left{
+            width: 46.5%;
+            background-color: #fff;
+            text-align: center;
+
+            img{
+                width: 100%;
+            }
+
+            h6{
+                color: gray;
+                letter-spacing: 0.2rem;
+                margin-top: 2rem;
+                font-weight: 400;
+            }
+
+            hr{
+                width: 50%;
+                border: 0.1px solid rgba(128, 128, 128, 0.361); 
+                position: relative;
+                left: 25%;
+            }
+
+            h2{
+                font-weight: 300;
+                font-size: 1.7rem;
+            }
+
+            p{
+                color: gray;
+                font-weight: 200;
+                margin: 2rem;
+                text-align: left;
+            }
+
+            button{
+                width: 130px;
+                height: 35px;
+                font-style: $primaryfont;
+                background: none;
+                border: 2px solid rgba(128, 128, 128, 0.505);
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}

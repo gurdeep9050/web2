@@ -1,0 +1,130 @@
+.my-container{
+    padding: 0;
+}
+
+#my-navigation{
+    width: 100%;
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
+
+    a{
+        color: #fff;
+    }
+
+    .navbar-header{
+        float: none;
+        background: none;
+
+        a{
+            color: #fff;
+            font-weight: 300;
+
+            span{
+                background: none;
+                color: #dfdfdf;
+                font-size: 1rem;
+                font-weight: 300;
+            }
+        }
+        
+        .navbar-toggle{
+            display: block;
+            @include flex-property();
+            border: 0;
+
+            .icon-right{
+                position: relative;
+                top: -0.15rem;
+            }
+
+            .icon-bar-left{
+                background: none;
+
+                span{ 
+                    color: #fff;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        .navbar-toggle :hover{
+            background: none;
+            cursor: pointer;
+        }
+
+        span{
+            margin-left: 10px;
+            color: #fff;
+            background: none;
+            font-size: 1.1rem;
+        }
+    }
+
+    .navbar-header :hover{
+        background: none;
+    }
+
+    .navbar-right{
+        position: absolute;
+        font-weight: 300;       
+    }
+
+}
+
+
+// Carousal starts
+
+.item{
+    background-image: url(../img/slide01.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.item-2{
+    background-image: url(../img/slide02.jpg);
+}
+
+.item-3{
+    background-image: url(../img/slide03.jpg);
+}
+
+.item-4{
+    background-image: url(../img/slide04.jpg);
+}
+
+.item-5{
+    background-image: url(../img/slide05.jpg);
+}
+
+.banner-text{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 45%;
+
+    p{
+        color: #dfdfdf;
+        font-weight: 200;
+        letter-spacing: 0.3rem;
+        margin-bottom: 2rem;
+    }
+
+    hr{
+        width: 30%;
+        position: relative;
+        left: 35%;
+    }
+
+    h1{
+        font-size: 5.5rem;
+        font-weight: 400;
+    }
+}
+

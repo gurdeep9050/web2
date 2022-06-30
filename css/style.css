@@ -1,0 +1,372 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+}
+
+.my-container {
+  padding: 0;
+}
+
+#my-navigation {
+  width: 100%;
+  background: none;
+  border: none;
+  position: absolute;
+  z-index: 1;
+  margin-top: 1rem;
+}
+
+#my-navigation a {
+  color: #fff;
+}
+
+#my-navigation .navbar-header {
+  float: none;
+  background: none;
+}
+
+#my-navigation .navbar-header a {
+  color: #fff;
+  font-weight: 300;
+}
+
+#my-navigation .navbar-header a span {
+  background: none;
+  color: #dfdfdf;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+#my-navigation .navbar-header .navbar-toggle {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 0;
+}
+
+#my-navigation .navbar-header .navbar-toggle .icon-right {
+  position: relative;
+  top: -0.15rem;
+}
+
+#my-navigation .navbar-header .navbar-toggle .icon-bar-left {
+  background: none;
+}
+
+#my-navigation .navbar-header .navbar-toggle .icon-bar-left span {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#my-navigation .navbar-header .navbar-toggle :hover {
+  background: none;
+  cursor: pointer;
+}
+
+#my-navigation .navbar-header span {
+  margin-left: 10px;
+  color: #fff;
+  background: none;
+  font-size: 1.1rem;
+}
+
+#my-navigation .navbar-header :hover {
+  background: none;
+}
+
+#my-navigation .navbar-right {
+  position: absolute;
+  font-weight: 300;
+}
+
+.item {
+  background-image: url(../img/slide01.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.item-2 {
+  background-image: url(../img/slide02.jpg);
+}
+
+.item-3 {
+  background-image: url(../img/slide03.jpg);
+}
+
+.item-4 {
+  background-image: url(../img/slide04.jpg);
+}
+
+.item-5 {
+  background-image: url(../img/slide05.jpg);
+}
+
+.banner-text {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 45%;
+}
+
+.banner-text p {
+  color: #dfdfdf;
+  font-weight: 200;
+  letter-spacing: 0.3rem;
+  margin-bottom: 2rem;
+}
+
+.banner-text hr {
+  width: 30%;
+  position: relative;
+  left: 35%;
+}
+
+.banner-text h1 {
+  font-size: 5.5rem;
+  font-weight: 400;
+}
+
+.full {
+  width: 100%;
+  background-color: #dfdfdf;
+  padding: 5rem 0;
+}
+
+.full .info {
+  background-color: #dfdfdf;
+  max-width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full .info .left {
+  width: 46.5%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.full .info .left img {
+  width: 100%;
+}
+
+.full .info .left h6 {
+  color: gray;
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+.full .info .left hr {
+  width: 50%;
+  border: 0.1px solid rgba(128, 128, 128, 0.361);
+  position: relative;
+  left: 25%;
+}
+
+.full .info .left h2 {
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+.full .info .left p {
+  color: gray;
+  font-weight: 200;
+  margin: 2rem;
+  text-align: left;
+}
+
+.full .info .left button {
+  width: 130px;
+  height: 35px;
+  font-style: "Poppins", sans-serif;
+  background: none;
+  border: 2px solid rgba(128, 128, 128, 0.505);
+  margin-bottom: 2rem;
+}
+
+.full-photo {
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.text p {
+  color: gray;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+}
+
+.text hr {
+  width: 40%;
+  position: relative;
+  left: 30%;
+}
+
+.text h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.fourth-part {
+  width: 100%;
+  background-color: #dfdfdf;
+  padding-bottom: 6rem;
+}
+
+.fourth-part .inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fourth-part .inner h3 {
+  color: black;
+}
+
+.fourth-part .inner hr {
+  border: 0.1px solid rgba(128, 128, 128, 0.361);
+}
+
+.fourth-part .inner .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.fourth-part .inner .images img {
+  width: 47%;
+  border: 10px solid #fff;
+}
+
+.fourth-part .inner .images .margin {
+  margin-bottom: 3.5rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.footer span {
+  color: gray;
+  font-size: 2rem;
+  margin: 0.7rem;
+}
+
+.footer a :hover {
+  color: #fff;
+}
+
+.footer p {
+  color: gray;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  #my-navigation .navbar-header .navbar-toggle .icon-right {
+    position: relative;
+    top: 0.05rem;
+  }
+  .full .info {
+    margin-left: 20%;
+  }
+  .full .info .left {
+    width: 80%;
+  }
+  .full .info .left hr {
+    width: 30%;
+    left: 35%;
+  }
+  .full .info .left2 {
+    margin-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  html {
+    font-size: 10px;
+  }
+  #my-navigation .navbar-header .navbar-brand span {
+    font-size: 1.2rem;
+  }
+  #my-navigation .navbar-header .navbar-toggle .icon-right {
+    position: relative;
+    top: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 793px) {
+  .text p {
+    letter-spacing: 0.15rem;
+  }
+  .text h3 {
+    font-size: 2.2rem;
+  }
+  .fourth-part .inner .images img {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .margin-2 {
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #my-navigation .navbar-right {
+    margin-left: 1.8rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .text p {
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+  }
+  .text h3 {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
